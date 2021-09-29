@@ -12,3 +12,24 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+  .trackCard {
+      font-size: 20px;
+      height: 300px;
+  }
+  h2 {
+      text-decoration: underline;
+  }
+  .trackBtn {
+
+  }
+
+  .currentDay {
+    color: #06AED5;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .timeToday {
+    color: #06AED5;
+    font-size: 25px;
+    font-weight: bold;
+  }
