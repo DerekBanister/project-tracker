@@ -1,8 +1,17 @@
 // setup display of current time with moment.js <---------- Pseudocode
 // Pseudocode
 // 
-var today = moment();
 
+var datetime;
+var date;
 
-$(".currentDay").text(today.format("MMMM Do, YYYY"));
-$(".timeToday").text(today.format("h:mm a"));
+var update = function(){
+    date = moment(new Date());
+    datetime.html(date.format('dddd, MMMM Do YYYY, h:mm:ss a'))
+};
+
+$(document).ready(function(){
+    datetime = $('.currentDay')
+    update();
+    setInterval(update, 1000);
+});
