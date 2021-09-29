@@ -1,2 +1,1 @@
-// Pseudocode
-// 
+// setup display of current time with moment.js <---------- Pseudocode
